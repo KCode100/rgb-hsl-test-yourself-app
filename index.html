@@ -9,12 +9,29 @@
 </head>
 <body>
 
-    <h2 class="question"></h2>
-    <div class="container"></div>
-    <div class="btns-container">
-        <button class="btn" id="next-question">Next</button>
-        <button class="btn" id="show-answer">Show answer</button>
-    </div>
+    <header class="header">
+        <form action="#">
+            <div class="selector">
+                <input type="radio" id="rgb" name="type" value="rgb">
+                <label for="rgb">RGB</label>
+            </div>
+          
+            <div class="selector">
+                <input type="radio" id="hsl" name="type" value="hsl">
+                <label for="hsl">HSL</label>
+            </div>
+        </form>
+
+    </header>
+
+    <main>
+        <h2 class="question"></h2>
+        <div class="container"></div>
+        <div class="btns-container">
+            <button class="btn" id="next-question">Next</button>
+            <button class="btn" id="show-answer">Show answer</button>
+        </div>
+    </main>
     
     <script src="./js/script.js"></script>
 </body>
